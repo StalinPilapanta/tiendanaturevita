@@ -89,7 +89,7 @@
             <div class="trust"><span>Envío gratis</span><span>Pago contra entrega</span><span>Productos originales</span></div>
           </div>
           <div class="hero-art">
-            ${prods.map((p) => `<a href="/${p.slug}" data-link class="card-img"><img src="${p.imagenes[0]}" alt="${esc(p.nombre)}"></a>`).join("")}
+            ${prods.slice(0, 2).map((p) => `<a href="/${p.slug}" data-link class="card-img"><img src="${p.imagenes[0]}" alt="${esc(p.nombre)}"></a>`).join("")}
             <div class="chip-float">📦<div>Despacho con Servientrega<b>Más de 700 agencias</b></div></div>
           </div>
         </div>

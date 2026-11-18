@@ -90,6 +90,84 @@ PRODUCTOS = {
                   "mariscos, tomas anticoagulantes o tienes una condición médica, "
                   "consulta a tu médico antes de usarlo."),
     },
+    "nad-pro-max": {
+        "slug": "nad-pro-max",
+        "embudo": "nad",
+        "nombre": "NAD+ Pro Max",
+        "subtitulo": "NAD+ 300 mg con resveratrol y CoQ10 · 60 cápsulas vegetales",
+        "eyebrow": "Energía celular",
+        "titular": "Energía y vitalidad para tu día a día.",
+        "bajada": ("NAD+ con resveratrol y coenzima Q10, ingredientes que participan en la "
+                   "producción de energía de tus células y aportan antioxidantes."),
+        "imagenes": ["/static/img/nad.jpg"],
+        "acento": "azul",
+        "ofertas": [
+            {"frascos": 1, "precio": 24.99, "antes": None, "etiqueta": "1 frasco",
+             "nota": "", "regalo": False, "destacada": False},
+            {"frascos": 2, "precio": 34.99, "antes": 49.98, "etiqueta": "Más elegido",
+             "nota": "", "regalo": True, "destacada": True},
+            {"frascos": 3, "precio": 44.99, "antes": 74.97, "etiqueta": "Mejor precio",
+             "nota": "Tratamiento completo", "regalo": True, "destacada": False},
+        ],
+        "beneficios": [
+            ("NAD+ 300 mg", "Participa en la producción de energía dentro de las células."),
+            ("Resveratrol", "Antioxidante que ayuda a proteger las células del estrés oxidativo."),
+            ("Coenzima Q10", "Apoya la energía celular en órganos muy activos como el corazón."),
+            ("Cápsulas vegetales", "60 cápsulas, fáciles de tomar en tu rutina diaria."),
+        ],
+        "recibes": [
+            "Frascos de NAD+ Pro Max de 60 cápsulas",
+            "Instrucciones de uso por WhatsApp",
+            "Regalo sorpresa desde 2 frascos",
+            "Envío gratis hasta tu agencia Servientrega",
+        ],
+        "uso": [
+            "Toma la porción indicada en la etiqueta del frasco.",
+            "Acompáñala con agua, de preferencia con una comida.",
+            "Úsalo de forma constante varias semanas.",
+        ],
+        "aviso": ("Suplemento alimenticio, no es un medicamento. Si estás embarazada, en "
+                  "lactancia, tomas medicación o tienes una condición médica, consulta a tu "
+                  "médico antes de usarlo."),
+    },
+    "biokids": {
+        "slug": "biokids",
+        "embudo": "biokids",
+        "nombre": "BioKids Moringa",
+        "subtitulo": "Gomitas con moringa, zinc, DHA y ARA · 160 g",
+        "eyebrow": "Para los más pequeños",
+        "titular": "Nutrientes que ellos sí quieren tomar.",
+        "bajada": ("Gomitas con aceite de moringa, calcio, hierro, zinc, DHA, ARA y vitaminas "
+                   "A, C, D y E para complementar la alimentación de los niños."),
+        "imagenes": ["/static/img/biokids.jpg"],
+        "acento": "verde",
+        "ofertas": [
+            {"frascos": 1, "precio": 24.99, "antes": None, "etiqueta": "1 frasco",
+             "nota": "", "regalo": False, "destacada": False},
+            {"frascos": 2, "precio": 34.99, "antes": 49.98, "etiqueta": "Promoción",
+             "nota": "", "regalo": True, "destacada": True},
+        ],
+        "beneficios": [
+            ("Vitaminas A, C, D y E", "Apoyan las defensas, la visión y unos huesos fuertes."),
+            ("Hierro y zinc", "Minerales importantes en la etapa de crecimiento."),
+            ("DHA y ARA", "Nutrientes relacionados con el desarrollo del cerebro."),
+            ("Rico sabor", "Gomitas que los niños disfrutan, sin pelear para tomarlas."),
+        ],
+        "recibes": [
+            "Frascos de BioKids gomitas con moringa de 160 g",
+            "Instrucciones de uso por WhatsApp",
+            "Regalo sorpresa con 2 frascos",
+            "Envío gratis hasta tu agencia Servientrega",
+        ],
+        "uso": [
+            "Dale la porción indicada en la etiqueta según la edad.",
+            "Una vez al día, de preferencia con una comida.",
+            "Guárdalo fuera del alcance de los niños.",
+        ],
+        "aviso": ("Suplemento alimenticio, no es un medicamento ni reemplaza una alimentación "
+                  "balanceada. Consulta al pediatra si tu hijo tiene alguna condición de salud, "
+                  "alergias o toma medicación."),
+    },
 }
 
 
