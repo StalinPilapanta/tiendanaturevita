@@ -142,9 +142,9 @@ PRODUCTOS = {
         "imagenes": ["/static/img/biokids.jpg"],
         "acento": "verde",
         "ofertas": [
-            {"frascos": 1, "precio": 24.99, "antes": None, "etiqueta": "1 frasco",
+            {"frascos": 1, "precio": 27.99, "antes": None, "etiqueta": "1 frasco",
              "nota": "", "regalo": False, "destacada": False},
-            {"frascos": 2, "precio": 34.99, "antes": 49.98, "etiqueta": "Promoción",
+            {"frascos": 2, "precio": 37.99, "antes": 55.98, "etiqueta": "Promoción",
              "nota": "", "regalo": True, "destacada": True},
         ],
         "beneficios": [
